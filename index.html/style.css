@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    line-height: 1.6;
+    letter-spacing: .5px;
+}
+section{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 55%;
+    margin: 0 auto;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 2rem; */
+}
+.title{
+    text-align: center;    
+}
+.title h5{
+    font-size: 1.3rem;
+    text-decoration: underline;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+    color: rgb(255, 0, 144);
+}
+.title h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(0, 110, 255);
+}
+.box{
+    height: 14rem;
+    width: 17rem;
+    background: rgba(0, 110, 255, 0.253);
+    margin-top: 1rem;
+    padding: 2rem;
+    border: 1px solid rgba(0, 110, 255, 0.253);
+    border-radius: .5rem;
+    transition: .6s ease;
+}
+.box:hover{
+    background: none;
+}
+.box .icon{
+    height: 1.8rem;
+    padding: .2rem;
+    background: rgb(255, 0, 115);
+    border-radius: .2rem;
+    transition: .6s ease;
+    margin-bottom: 1rem;
+}
+.box .icon:hover{
+    background: rgb(0, 110, 255);
+}
+.box h5{
+    margin-bottom: .5rem;
+    font-size: .9rem;
+    color: rgb(255, 0, 115);
+}
+.box p{
+    font-size: .8rem;
+    color:  rgb(0, 110, 255);
+}
+form input{
+    width: 100%;
+    margin-top: 1rem;
+    padding: .7rem .5rem;
+    background: transparent;
+    outline: none;
+    border: 1px solid rgb(0, 110, 255);
+    color: rgb(255, 0, 115);
+}
+textarea{
+    resize: none;
+    outline: none;
+    border: 1px solid rgb(255, 0, 115);
+    height: 7rem;
+    width: 100%;
+    margin-top: 1rem;
+    padding: .7rem .5rem;
+    color: rgb(0, 110, 255);
+}
+button{
+    padding: .4rem 2rem;
+    cursor: pointer;
+    background: rgb(255, 0, 115);
+    outline: none;
+    border: 1px solid rgb(255, 0, 115);
+    color: white;
+    transition: .6s ease;
+    margin-top: 1rem;
+    font-size: .8rem;
+}
+button:hover{
+    background: transparent;
+    color: rgb(255, 0, 115);
+}
+/* .social{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+.social img{
+    height: 1.8rem;
+    padding: .2rem;
+    background: rgb(255, 0, 115);
+    border-radius: .2rem;
+    transition: .6s ease;
+}
+.social img:hover{
+    background: rgb(0, 110, 255) ;    
+} */
